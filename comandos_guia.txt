@@ -1,0 +1,61 @@
+    1  ls
+    2  cd ~/
+    3  pwd
+    4  mkdir repositories
+    5  ls
+    6  cd repositories/
+    7  git clone https://github.com/ICESI-Training/so-bash.git
+    8  ls
+    9  git clone https://github.com/ICESI-Training/so-bash.git
+   10  cat /tmp/ks-script-wgWmOZ 
+   11  ls
+   12  ls /tmp/
+   13  git config remote.origin.url "https://d6f298a592e7bef9644bbdf8bb3c3f3f153806fe@github.com/ICESI-Training/so-bash.git
+git config remote.origin.url "https://d6f298a592e7bef9644bbdf8bb3c3f3f153806fe@github.com/ICESI-Training/so-bash.git"
+   14  git config remote.origin.url "https://d6f298a592e7bef9644bbdf8bb3c3f3f153806fe@github.com/ICESI-Training/so-bash.git"
+   15  ls
+   16  clear
+   17  cd so-bash/
+   18  ls
+   19  git config remote.origin.url "https://d6f298a592e7bef9644bbdf8bb3c3f3f153806fe@github.com/ICESI-Training/so-bash.git"
+   20  ls -al
+   21  cat .git/config
+   22  ls
+   23  vi README.md 
+   24  git add README.md 
+   25  git commit -m "Update README.md"
+   26  git config --global user.name "Daniel Barragan"
+   27  git config --global user.email daniel.barragan@correo.icesi.edu.co
+   28  git status
+   29  git push
+   30  git branch
+   31  ls
+   32  ip a
+   33  cd /tmp/
+   34  ls
+   35  ip a
+   36  ifdown enp0s9
+   37  ls
+   38  cd /home/operativos/
+   39  ls
+   40  cd repositories/
+   41  ls
+   42  cd so-bash/
+   43  ls
+   44  mkdir scripts
+   45  mv count.sh scripts/
+   46  ls
+   47  vim README.md 
+   48  vi README.md 
+   49  markdown-viewer README.md 
+   50  ls
+   51  vim README.md 
+   52  cat README.md 
+   53  history
+   54  ps -auxwww
+   55  ps -auxwww | grep operativos
+   56  history | grep ls
+   57  ls
+   58  cat .git/config 
+   59  ls
+   60  history > comandos_feb_13.txt
