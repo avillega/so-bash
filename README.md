@@ -1,7 +1,4 @@
-<<<<<<< HEAD
 # so-bash
-## Prueba para ver si pueod hacer commit
-hola
 =======
 Universidad ICESI
 ## Informe Comandos CentOS 
@@ -21,4 +18,3 @@ repositorios, incluir los archivos solicitados y las secciones descritas a conti
 
 ### Referencias
 - Páginas web donde encontro la información
->>>>>>> 28d11b7c4b81c97bb95224118b463da0ca338860
