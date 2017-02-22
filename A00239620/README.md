@@ -1,7 +1,7 @@
 # Informe comandos CentOs
 
 Nombre: Andrés Villegas  
-Código: A00239629  
+Código: A00239620   
 
 ## Captura History
 ![alt text](captura_history.PNG "imagen history")
