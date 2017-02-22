@@ -1,0 +1,259 @@
+    1  cd /home/operativos/
+    2  ls
+    3  mkdir repositories
+    4  ls -al
+    5  ls -l
+    6  ls -al
+    7  vi .bashrc 
+    8  export GIT_TOKEN="ABC123"
+    9  echo $GIT_TOKEN 
+   10  vim list.sh
+   11  chmod +x list.sh 
+   12  ./list.sh 
+   13  ls -l
+   14  chmod 333 list.sh 
+   15  ls -L
+   16  ls -l
+   17  cat list.sh 
+   18  vi list.sh 
+   19  chmod 000 list.sh 
+   20  ./list.sh
+   21  vim list.sh 
+   22  ls -l
+   23  chmod 666 list.sh 
+   24  vi list.sh 
+   25  chmod 000 list.sh 
+   26  chmod 100 list.sh 
+   27  ./ list.sh 
+   28  ./list.sh 
+   29  ls -l
+   30  chmod 700 list.sh 
+   31  ./list.sh 
+   32  vim list.sh 
+   33  ./list.sh 
+   34  cp list.sh /tmp/list.sh
+   35  exit
+   36  cd /home/operativos/
+   37  ls
+   38  cd repositories/
+   39  git clone https://github.com/avillega/so-bash.git
+   40  ls
+   41  cd so-bash/
+   42  ls
+   43  ls -l
+   44  jobs
+   45  chmod +x count.sh 
+   46  ./count.sh 
+   47  jobs
+   48  fg
+   49  jobs
+   50  ./count.sh &
+   51  fg
+   52  f
+   53  gfg
+   54  fg
+   55  f
+   56  jobs
+   57  poweroff
+   58  exir
+   59  exit
+   60  cd /home/operativos/
+   61  ls
+   62  cd repositories/
+   63  ls
+   64  cd so-bash/
+   65  ls
+   66  cat README.md 
+   67  ls
+   68  cd ..
+   69  ls
+   70  rm so-bash/
+   71  rm -rf so-bash/
+   72  ls
+   73  exit
+   74  ls
+   75  cd /home/operativos/
+   76  ls
+   77  cd repositories/
+   78  ls
+   79  git clone https://github.com/avillega/so-bash-git
+   80  git clone https://github.com/avillega/so-bash.git
+   81  ls
+   82  cd so-bash/
+   83  ls
+   84  ifup enp0s8
+   85  exit
+   86  cd /home/operativos/
+   87  ls
+   88  cd repositories/
+   89  ls
+   90  cd so-bash/
+   91  git config remote.origin.url "https://c92f3abd4e80d8df00d48d4a4e51a64435dc17ee@github.com/avillega/so-bash.git"
+   92  git remote add upstream https://github.com/ICESI-Training/so-bash.git
+   93  git checkout master
+   94  git rebase upstream/master
+   95  git fetch upstream
+   96  ls
+   97  git rebase upstream/master
+   98  ls
+   99  cd README.md 
+  100  cat README.md 
+  101  git branch
+  102  git add .
+  103  git commit -m "rebased project"
+  104  git config --global user.name "avillega"
+  105  git config --global user.email villegas.pelaez.andres@gmail.com
+  106  git commin --amend --reset-author
+  107  git commit --amend --reset-author
+  108  git rebase upstream/master
+  109  git push
+  110  ls
+  111  git add -all
+  112  git add --all
+  113  git commit -m "added mane files"
+  114  git rebase --continue
+  115  git add
+  116  git add .
+  117  git push
+  118  ls
+  119  git rebase upstream/master
+  120  git rebase --abort
+  121  git rebase --continue
+  122  git branch
+  123  git rebase upstream/master
+  124  git rebase --abort
+  125  git status
+  126  git log --pretty=oneline
+  127  git branch
+  128  git push
+  129  git remote -v
+  130  git push origin master
+  131  ls
+  132  cat README.md 
+  133  git add .
+  134  git commit -m "test a commit"
+  135  git push origin master
+  136  git pull origin master
+  137  cat README.md 
+  138  echo "hola" >> README.md 
+  139  cat README.md 
+  140  git add .
+  141  git commit -m "add line"
+  142  git push origin master
+  143  git pull upstream master
+  144  git rebase --abort
+  145  git rebase upstream/master
+  146  git reset 
+  147  git rebase upstream/master
+  148  git reset --hard
+  149  git rebase upstream/master
+  150  ls
+  151  lserror: The following untracked working tree files would be overwritten by checkout:
+  152  Please move or remove them before you can switch branches.
+  153  git clean  -d  -fx ""
+  154  git pull upstream master
+  155  git pull -f upstream master
+  156  CONFLICT (content): Merge conflict in README.md
+  157  git mergetool
+  158  ls
+  159  cat README.md
+  160  ls
+  161  cat README.md
+  162  vim README.md
+  163  git push 
+  164  ñs
+  165  ls
+  166  git status
+  167  ls
+  168  rm README.md.orig 
+  169  ls
+  170  mv count.sh scripts/
+  171  ls
+  172  rm comandos_guia.txt 
+  173  ls
+  174  git add .
+  175  git status
+  176  git commit -m "update repo"
+  177  git push origin master
+  178  history
+  179  tig
+  180  vi README.md 
+  181  git add README.md 
+  182  git commit -m "clean README.md"
+  183  git push origin master
+  184  clear
+  185  cd
+  186  exit
+  187  yum install nano
+  188  visudo
+  189  exit
+  190  sudo yum install nano
+  191  cd /home/operativos/
+  192  whoami
+  193  pwd
+  194  ls
+  195  mkdir -p {directorio1,directorio2,directorio3}
+  196  ls
+  197  vi list1
+  198  vi mylist2
+  199  touch .list3
+  200  mv .list3 .mylist3
+  201  mv {list1, mylist2, .mylist3} directorio1
+  202  ls
+  203  mv {list1,mylist2,.mylist3} directorio1
+  204  ls
+  205  ls -a
+  206  cd directorio1
+  207  ls
+  208  ls -a
+  209  ls list*
+  210  ls *list
+  211  ls ??list?
+  212  cp .mylist3 mylist4
+  213  rm .mylist3 
+  214  rem -rf ../directorio3
+  215  rm -rf ../directorio3
+  216  cd ../directorio2
+  217  ls
+  218  fg
+  219  wget 
+  220  yum install wget
+  221  sudo yum install wget
+  222  wget http://www.gutenber.org/cache/epub/19033/pg190333.txt
+  223  cat pg190333.txt 
+  224  less pg190333.txt 
+  225  head pg190333.txt 
+  226  clear
+  227  head pg190333.txt 
+  228  tail pg190333.txt 
+  229  grep -in Alice pg190333.txt 
+  230  cd ..
+  231  cd directorio
+  232  cd directorio1
+  233  ls
+  234  cat > mylist4
+  235  cat >> mylist4
+  236  cat mylist4
+  237  cat list1 mylist2 > biglist
+  238  sort biglist 
+  239  cat biglist 
+  240  cat mylist
+  241  cat mylist1
+  242  cat mylist2
+  243  vi mylist2
+  244  vi list1 
+  245  rm biglist 
+  246  cat list1 mylist2 > biglist
+  247  cat biglist 
+  248  sort biglist 
+  249  sort biglist > ordlist
+  250  who
+  251  who | sort
+  252  who | wc -l
+  253  nano myscript.sh
+  254  chmod 700 myscript.sh 
+  255  ./myscript.sh 
+  256  history
+  257  set history=100
+  258  history
+  259  history > history_villegas.txt
