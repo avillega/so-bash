@@ -5,8 +5,9 @@ Código: A00239629
 
 ## Captura History
 ![alt text](captura_history.PNG "imagen history")
-El documento completo se encuntras en history_villegas.txt
--------------
+
+El documento completo se encuntra en [history_villegas.txt](history_villegas.txt)
+
 
 ## Solución a las preguntas
 
@@ -69,17 +70,33 @@ Para instalar una aplicación desde su código fuente es necesario seguir una se
   6. ejecutar make install para instalar y mover la aplicación a los directorios apropiados para su funcionamiento  
   7. Pruebe y utilize la aplicación que acabo de instalar.  
 
-En mi caso, instale el programa **sl** el cual es una utilidad poco util que imprimi una locomotora de vapor cuando se escribe mal el comndo
-**ls**
+En mi caso, instale el programa **sl** el cual es una utilidad poco util que imprime una locomotora de vapor cuando
+se escribe mal el comndo **ls**
 
+Para esta instalación se debe clonar el repositorio fuente
+``` 
+$git clone https://github.com/mtoyoda/sl.git
+$cd sl
+```
+De esta manera ya estaremos dentro del direcotrio que contiene los archivos fuente y los necesarios para la instalación.  
+Este programa es escrito en C por tanto necesitaremos gcc para su compilación. Tambien sera necesario las librerias
+ncurse y ncurse-devel. En centOS la instalación podria hacerse:
+```
+#yum groupinstall "Development Tools"
+o
+#yum install ncurse ncurse-devel gcc -y
+```
+El primer comando instala una serie de herramientas y compiladores de diferentes lenguajes que nos seran de utilidad.
+El seguno comando es más especifico en cuanto a las herramientas que instala
 
-  
-    
-
+Una vez instalado lo anterior y estando dentro del directorio que contiene los archivos fuente podremos hacer `make` 
+esto generara el binario ejecutable. Podremos pobrar que esta corecto haciendo `./sl`  
+Ahora es necesario agregar la carpeta que contiene este binario al PATH. La forma recomendable, si es posible, es usar el archivo /etc/environment y poner alli es siguiente comando `export PATH=$PATH:/your/path/to/sl` de esta manera podremos usar sl como una utilidad más de nuestro sistema. En caso de no existir el archivo /etc/environment se puede hacer uso el archivo /etc/profile
+o el .bashrc
 
 Referencias
-http://askubuntu.com/questions/571617/what-is-the-purpose-of-the-bin-directory
-http://www.tldp.org/
-http://www.linfo.org/mnt.html
-http://www.linfo.org/sbin.html
-http://www.thegeekstuff.com/2012/06/install-from-source
+http://askubuntu.com/questions/571617/what-is-the-purpose-of-the-bin-directory  
+http://www.tldp.org/  
+http://www.linfo.org/mnt.html  
+http://www.linfo.org/sbin.html  
+http://www.thegeekstuff.com/2012/06/install-from-source  
